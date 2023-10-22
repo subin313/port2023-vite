@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="한가지 사이트를 다양한 프레임워크를 통해 만들어 보는 포트폴리오 사이트입니다."/>
+    <meta name="keyword" content="포트폴리오, 리액트, 뷰, 넥스트, 웹스토리보이, portfolio, react.js, vue.js, next.js, webstoryboy" />
+    <title>포트폴리오 사이트 만들기 😇 Vite-Site</title>
+
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon-f4847a0d.svg" />
+    
+  <script type="module" crossorigin src="/assets/index-680e2565.js"></script>
+  <link rel="stylesheet" href="/assets/index-719d701f.css">
+</head>
+<body>
+    <div id="skip">
+      <a href="#header">헤더 영역 바로가기</a>
+      <a href="#intro">소개 영역 바로가기</a>
+      <a href="#skill">스킬 영역 바로가기</a>
+      <a href="#site">사이트 영역 바로가기</a>
+      <a href="#port">포트폴리오 영역 바로가기</a>
+      <a href="#contact">연락처 영역 바로가기</a>
+      <a href="#footer">푸터 영역 바로가기</a>
+    </div>
+    <!--//skip-->
+
+    <header id="header" role="banner">
+      <div class="header__inner">
+        <div class="header__logo">
+          <a href="#">portfolio<em>developer</em></a>
+        </div>
+        <nav class="header__nav" role="navigation" aria-label="메인메뉴">
+          <ul>
+            <li><a href="#intro">intro</a></li>
+            <li><a href="#skill">skill</a></li>
+            <li><a href="#site">site</a></li>
+            <li><a href="#port">portfolio</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+        </nav>
+        <div
+        class="header__nav__mobile"
+        id="headerToggle"
+        aria-controls="primary-menu"
+        aria-expanded="false"
+        role="button"
+        tabindex="0"
+        >
+          <span></span>
+        </div>
+      </div>
+    </header>
+    <!--//header-->
+
+    <main id="main" role="main">
+      <section id="intro">
+        <div class="intro__inner">
+          <h1 class="intro__title">
+            port developer
+          </h1>
+          <div class="intro__lines" aria-hidden="true">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+          <div class="intro__text">
+            <div class="text">
+              <div>talent is</div>
+              <div>found at the end of the</div>
+              <div>effort</div>
+            </div>
+            <div class="img">
+              <img src="/assets/KakaoTalk_Photo_2023-02-06-21-13-22-e9e3a195.jpg" alt="어바웃">
+            </div>
+          </div>
+          <div class="intro__liens bottom" aria-hidden="true">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+        </div>
+      </section>
+      <!--//intro-->
+      
+      <section id="skill">
+        <div class="skill__inner">
+          <h2 class="skill_title">challenge<em>나의 도전</em></h2>
+          <div class="skill__desc">
+            <div>
+              <span>1</span>
+              <h3>꿈을 설계하고 디자인하다.</h3>
+              <p>
+                나는 공간을 만드는 것을 좋아한다.
+                어렸을 때부터 나만의 공간을 만드는 것을 좋아했고 나만의 다락방을 좋아했다.
+                단 한 사람이라도 내가 만든 공간 속에서 영감을 받거나 마음이 움직였으면 좋겠다.
+                나만의 공간을 마음 껏 만들 수 있다는 건 코딩에 엄청난 매력인거 같다.
+                그 한구석에 나만의 꿈을 설계하고, 개발을 하며 앞으로도 살고 싶다.
+              </p>
+            </div>
+            <div>
+              <span>2</span>
+              <h3>열심히 할수록 기회는 따른다.</h3>
+              <p>
+                운이 좋은 사람은 없다. 단지 운을 만들 뿐이다.
+                운을 만들기 위해서는 내가 좋아하는 일이나 내가 하고 싶은 일에 몰두하면 된다.
+                몰두 하다보면 길이 보이고 방향이 보이게 된다.
+                운이란 고된 노동과 노력을 통해 스스로 만들어 내는 것이다.
+              </p>
+            </div>
+            <div>
+              <span>3</span>
+              <h3>나에게 정직하다.</h3>
+              <p>
+                정직은 다른사람 보다 나에게 큰 의미를 부여해야 한다.
+                자신이 정직하지 않으면 진정으로 원하는 일을 열정적으로 밀고 나갈 수 없다.
+                마음에서 우러나오는 일을 해야 정직해지며 삶을 더 즐길 줄 알게 된다.
+              </p>
+            </div>           
+          </div><!--desc-->
+        </div>
+      </section>
+      <!--//skill-->
+
+      <section id="site">
+        <div class="site__inner">
+          <h2 class="site__title">Site coding<em>나의 작업물</em></h2>
+          <div class="site__wrap">
+            <article class="site__item s1">
+              <span class="num">1</span>
+              <div class="text">
+                <div>Make</div>
+                <div>site compliant with</div>
+                <div>webstandard</div>
+              </div>
+              <h3 class="title">웹 표준을 준수한 사이트 제작</h3>
+              <div class="btn">
+                <a href="https://github.com/webstoryboy/port2023-vite">code</a>
+                <a href="https://port2023-vite.netlify.app/">view</a>
+              </div>
+              <div class="info">
+                <span>site coding</span>
+                <span>production period : two days</span>
+                <span>use stack : html5/css3, CSS Variable, vite</span>
+              </div>
+            </article>
+            <article class="site__item s2">
+              <span class="num">2.</span>
+              <div class="text">
+                <div>Make</div>
+                <div>site compliant with</div>
+                <div>react.js</div>
+              </div>
+              <h3 class="title">리엑트를 이용한 사이트 제작</h3>
+              <div class="btn">
+                <a href="https://github.com/webstoryboy/port2023-react">code</a>
+                <a href="https://port2023-react.netlify.app/">view</a>
+              </div>
+              <div class="info">
+                <span>site coding</span>
+                <span>production period : two days</span>
+                <span>use stack : HTML5/CSS3,CSS Variable, Vite</span>
+              </div>
+            </article>
+            <article class="site__item s3">
+              <span class="num">3.</span>
+              <div class="text">
+                  <div>Make</div>
+                  <div>site compliant with</div>
+                  <div>vue.js</div>
+              </div>
+              <h3 class="title">뷰를 이용한 사이트 제작</h3>
+              <div class="btn">
+                  <a href="https://github.com/webstoryboy/port2023-vue">code</a>
+                  <a href="https://port2023-vue.netlify.app/">view</a>
+              </div>
+              <div class="info">
+                  <span>site coding</span>
+                  <span>production period : two days</span>
+                  <span>use stack : vue.js, CSS Variable, vite</span>
+              </div>
+          </article>
+          <article class="site__item s4">
+              <span class="num">4.</span>
+              <div class="text">
+                  <div>Make</div>
+                  <div>site compliant with</div>
+                  <div>next.js</div>
+              </div>
+              <h3>넥스트를 이용한 사이트 제작</h3>
+              <div class="btn">
+                  <a href="https://github.com/webstoryboy/port2023-next">code</a>
+                  <a href="https://port2023-next.netlify.app/">view</a>
+              </div>
+              <div class="info">
+                  <span>site coding</span>
+                  <span>production period : two days</span>
+                  <span>use stack : next.js, CSS Variable, Vite</span>
+              </div>
+          </article>
+          </div>
+        </div>
+      </section>
+      <!--//site-->
+
+      <section id="port">
+        <div class="port__inner">
+          <div class="port__title">
+            portfolio<em>포폴 작업물</em>
+          </div>
+          <div class="port__wrap">
+            <article class="port__item p1">
+              <span class="num">01.</span>
+              <a href="" target="_blank" class="img">
+                <img src="/assets/KakaoTalk_Photo_2023-02-06-21-13-22-e9e3a195.jpg" alt="박수빈 포트폴리오">  
+              </a>
+              <h3 class="title">어워드에도 올라간 포트폴리오</h3>
+              <p class="desc">
+                라마 디자인을 통해 자신의 스킬을 가장 멋지게 표현한 포트폴리오입니다.
+                가로 모드와 세로 모드는 매우 인상적이며 특히 리액트와 비트를 이용하여 제작한 것은 더욱 놀랍습니다.
+                이 사이트는 awwwards.com에도 인정받아 올라간 포트폴리오입니다. 
+                확실히 그의 뛰어난 디자인 스킬과 기술력이 빛을 발휘한 결과물인 것 같습니다.
+              </p>
+              <a href="" target="_blank" class="site">사이트 보기</a>
+            </article>
+            
+            <article class="port__item p2">
+              <span class="num">01.</span>
+              <a href="" target="_blank" class="img">
+                <img src="/assets/KakaoTalk_Photo_2023-02-06-21-13-22-e9e3a195.jpg" alt="박수빈 포트폴리오">  
+              </a>
+              <h3 class="title">어워드에도 올라간 포트폴리오</h3>
+              <p class="desc">
+                라마 디자인을 통해 자신의 스킬을 가장 멋지게 표현한 포트폴리오입니다.
+                가로 모드와 세로 모드는 매우 인상적이며 특히 리액트와 비트를 이용하여 제작한 것은 더욱 놀랍습니다.
+                이 사이트는 awwwards.com에도 인정받아 올라간 포트폴리오입니다. 
+                확실히 그의 뛰어난 디자인 스킬과 기술력이 빛을 발휘한 결과물인 것 같습니다.
+              </p>
+              <a href="" target="_blank" class="site">사이트 보기</a>
+            </article>
+            
+            <article class="port__item p3">
+              <span class="num">01.</span>
+              <a href="" target="_blank" class="img">
+                <img src="/assets/KakaoTalk_Photo_2023-02-06-21-13-22-e9e3a195.jpg" alt="박수빈 포트폴리오">  
+              </a>
+              <h3 class="title">어워드에도 올라간 포트폴리오</h3>
+              <p class="desc">
+                라마 디자인을 통해 자신의 스킬을 가장 멋지게 표현한 포트폴리오입니다.
+                가로 모드와 세로 모드는 매우 인상적이며 특히 리액트와 비트를 이용하여 제작한 것은 더욱 놀랍습니다.
+                이 사이트는 awwwards.com에도 인정받아 올라간 포트폴리오입니다. 
+                확실히 그의 뛰어난 디자인 스킬과 기술력이 빛을 발휘한 결과물인 것 같습니다.
+              </p>
+              <a href="" target="_blank" class="site">사이트 보기</a>
+            </article>
+            
+            <article class="port__item p4">
+              <span class="num">01.</span>
+              <a href="" target="_blank" class="img">
+                <img src="/assets/KakaoTalk_Photo_2023-02-06-21-13-22-e9e3a195.jpg" alt="박수빈 포트폴리오">  
+              </a>
+              <h3 class="title">어워드에도 올라간 포트폴리오</h3>
+              <p class="desc">
+                라마 디자인을 통해 자신의 스킬을 가장 멋지게 표현한 포트폴리오입니다.
+                가로 모드와 세로 모드는 매우 인상적이며 특히 리액트와 비트를 이용하여 제작한 것은 더욱 놀랍습니다.
+                이 사이트는 awwwards.com에도 인정받아 올라간 포트폴리오입니다. 
+                확실히 그의 뛰어난 디자인 스킬과 기술력이 빛을 발휘한 결과물인 것 같습니다.
+              </p>
+              <a href="" target="_blank" class="site">사이트 보기</a>
+            </article>
+            
+            <article class="port__item p5">
+              <span class="num">01.</span>
+              <a href="" target="_blank" class="img">
+                <img src="/assets/KakaoTalk_Photo_2023-02-06-21-13-22-e9e3a195.jpg" alt="박수빈 포트폴리오">  
+              </a>
+              <h3 class="title">어워드에도 올라간 포트폴리오</h3>
+              <p class="desc">
+                라마 디자인을 통해 자신의 스킬을 가장 멋지게 표현한 포트폴리오입니다.
+                가로 모드와 세로 모드는 매우 인상적이며 특히 리액트와 비트를 이용하여 제작한 것은 더욱 놀랍습니다.
+                이 사이트는 awwwards.com에도 인정받아 올라간 포트폴리오입니다. 
+                확실히 그의 뛰어난 디자인 스킬과 기술력이 빛을 발휘한 결과물인 것 같습니다.
+              </p>
+              <a href="" target="_blank" class="site">사이트 보기</a>
+            </article>
+            
+            <article class="port__item p6">
+              <span class="num">01.</span>
+              <a href="" target="_blank" class="img">
+                <img src="/assets/KakaoTalk_Photo_2023-02-06-21-13-22-e9e3a195.jpg" alt="박수빈 포트폴리오">  
+              </a>
+              <h3 class="title">어워드에도 올라간 포트폴리오</h3>
+              <p class="desc">
+                라마 디자인을 통해 자신의 스킬을 가장 멋지게 표현한 포트폴리오입니다.
+                가로 모드와 세로 모드는 매우 인상적이며 특히 리액트와 비트를 이용하여 제작한 것은 더욱 놀랍습니다.
+                이 사이트는 awwwards.com에도 인정받아 올라간 포트폴리오입니다. 
+                확실히 그의 뛰어난 디자인 스킬과 기술력이 빛을 발휘한 결과물인 것 같습니다.
+              </p>
+              <a href="" target="_blank" class="site">사이트 보기</a>
+            </article>
+            
+            <article class="port__item p7">
+              <span class="num">01.</span>
+              <a href="" target="_blank" class="img">
+                <img src="/assets/KakaoTalk_Photo_2023-02-06-21-13-22-e9e3a195.jpg" alt="박수빈 포트폴리오">  
+              </a>
+              <h3 class="title">어워드에도 올라간 포트폴리오</h3>
+              <p class="desc">
+                라마 디자인을 통해 자신의 스킬을 가장 멋지게 표현한 포트폴리오입니다.
+                가로 모드와 세로 모드는 매우 인상적이며 특히 리액트와 비트를 이용하여 제작한 것은 더욱 놀랍습니다.
+                이 사이트는 awwwards.com에도 인정받아 올라간 포트폴리오입니다. 
+                확실히 그의 뛰어난 디자인 스킬과 기술력이 빛을 발휘한 결과물인 것 같습니다.
+              </p>
+              <a href="" target="_blank" class="site">사이트 보기</a>
+            </article>
+            
+            <article class="port__item p8">
+              <span class="num">01.</span>
+              <a href="" target="_blank" class="img">
+                <img src="/assets/KakaoTalk_Photo_2023-02-06-21-13-22-e9e3a195.jpg" alt="박수빈 포트폴리오">  
+              </a>
+              <h3 class="title">어워드에도 올라간 포트폴리오</h3>
+              <p class="desc">
+                라마 디자인을 통해 자신의 스킬을 가장 멋지게 표현한 포트폴리오입니다.
+                가로 모드와 세로 모드는 매우 인상적이며 특히 리액트와 비트를 이용하여 제작한 것은 더욱 놀랍습니다.
+                이 사이트는 awwwards.com에도 인정받아 올라간 포트폴리오입니다. 
+                확실히 그의 뛰어난 디자인 스킬과 기술력이 빛을 발휘한 결과물인 것 같습니다.
+              </p>
+              <a href="" target="_blank" class="site">사이트 보기</a>
+            </article>
+            
+            <article class="port__item p9">
+              <span class="num">01.</span>
+              <a href="" target="_blank" class="img">
+                <img src="/assets/KakaoTalk_Photo_2023-02-06-21-13-22-e9e3a195.jpg" alt="박수빈 포트폴리오">  
+              </a>
+              <h3 class="title">어워드에도 올라간 포트폴리오</h3>
+              <p class="desc">
+                라마 디자인을 통해 자신의 스킬을 가장 멋지게 표현한 포트폴리오입니다.
+                가로 모드와 세로 모드는 매우 인상적이며 특히 리액트와 비트를 이용하여 제작한 것은 더욱 놀랍습니다.
+                이 사이트는 awwwards.com에도 인정받아 올라간 포트폴리오입니다. 
+                확실히 그의 뛰어난 디자인 스킬과 기술력이 빛을 발휘한 결과물인 것 같습니다.
+              </p>
+              <a href="" target="_blank" class="site">사이트 보기</a>
+            </article>
+            
+            <article class="port__item p10">
+              <span class="num">01.</span>
+              <a href="" target="_blank" class="img">
+                <img src="/assets/KakaoTalk_Photo_2023-02-06-21-13-22-e9e3a195.jpg" alt="박수빈 포트폴리오">  
+              </a>
+              <h3 class="title">어워드에도 올라간 포트폴리오</h3>
+              <p class="desc">
+                라마 디자인을 통해 자신의 스킬을 가장 멋지게 표현한 포트폴리오입니다.
+                가로 모드와 세로 모드는 매우 인상적이며 특히 리액트와 비트를 이용하여 제작한 것은 더욱 놀랍습니다.
+                이 사이트는 awwwards.com에도 인정받아 올라간 포트폴리오입니다. 
+                확실히 그의 뛰어난 디자인 스킬과 기술력이 빛을 발휘한 결과물인 것 같습니다.
+              </p>
+              <a href="" target="_blank" class="site">사이트 보기</a>
+            </article>
+            
+          </div>
+        </div>
+      </section>
+      <!--//port-->
+
+      <section id="contact">
+        <div class="contact__inner">
+          <h2 class="contact__title">contact</h2>
+          <div class="contact__lines top" aria-hidden="true">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+          <div class="contact__text">
+            <div class="text">
+              <div>
+                <a href="" target="_blank">KAKAO : subinsopea@naver.com</a>
+              </div>
+              <div>
+                <a href="" target="_blank">mail : subinsopea@naver.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="contact__lines" aria-hidden="true">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+        </div>
+      </section>
+      <!--//contact-->
+    </main>
+    <!--//main-->
+
+    <footer id="footer">
+      <div class="footer__inner">
+        <div class="footer__text">
+          <span>subinggood</span>
+          <span>@webs</span>
+        </div>
+        <div class="footer__info">
+          <div class="left">
+            <div class="title">
+              <a href="#">sign up</a>
+            </div>
+            <p>회원가입을 하시면 댓글과 게시판 기능을 이용 할 수 있습니다.</p>
+          </div>
+          <div class="right">
+            <h3>social</h3>
+            <ul>
+              <li>
+                <a href="">youtube</a>
+                <em>유튜브애 오시면 더 많은 강의를 볼 수 있습니다.</em>
+              </li>
+              <li>
+                <a href="https://github.com/webstoryboy">github</a>
+                <em>깃헙에 들어오시면 모든 소스를 볼 수 있습니다.</em>
+              </li>
+              <li>
+                <a href="https://webstoryboy.co.kr">tistory</a>
+                <em>티스토리에 들어오시면 좋은 정보 볼 수 있습니다.</em>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/playlist?list=PL4UVBBIc6giL8-6jvrClimg0cFL-Muqiq">gsap</a>
+                <em>GSAP를 공부하시고 오면 도움이 됩니다.</em>
+              </li>
+              <li>
+                <a href="https://github.com/webstoryboy/port2023-vite">vite</a>
+                <em>비트 강의도 곧 오픈 예정입니다.</em>
+            </li>
+            <li>
+              <a href="https://github.com/webstoryboy/port2023-react">react</a>
+              <em>리액트 강의도 곧 오픈 예정입니다.</em>
+            </li>
+            <li>
+              <a href="https://github.com/webstoryboy/port2023-vue">vue</a>
+              <em>뷰 강의도 곧 오픈 예정입니다.</em>
+            </li>
+            <li>
+              <a href="https://github.com/webstoryboy/port2023-next">next</a>
+              <em>넥스트 강의도 곧 오픈 예정입니다.</em>
+            </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__right">
+          © 2023 port<br />
+          이 사이트는 비트를 이용하여 제작하였습니다.
+      </div>
+      </div>
+    </footer>
+    <!--//footer-->
+
+    
+</body>
+</html>
